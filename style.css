@@ -1,0 +1,23 @@
+html{
+
+}
+
+
+header{
+    text-align: center;
+    font-size: 75px;
+    font-family: "Dancing Script";
+    font-style: inherit;
+    font-style: initial;
+    padding: 100px;
+
+}
+.flex-container{
+    font-family: "Merienda";
+    padding: 80px;
+    border: solid 2px  salmon;
+    margin: 5px;
+    display: flex;
+   flex-wrap: wrap;
+}
+

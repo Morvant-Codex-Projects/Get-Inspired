@@ -50,3 +50,9 @@ header{
     flex: 30%;
     padding: 2px;
 }
+
+section{
+    border-radius: 25px;
+background: #684987;
+background: radial-gradient(circle, rgba(104, 73, 135, 1) 0%, rgba(44, 87, 130, 1) 100%);
+}

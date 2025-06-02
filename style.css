@@ -1,15 +1,13 @@
 html{
-
+    background-image: url(purple-sky.png);
 }
-
-
 header{
     text-align: center;
     font-size: 75px;
     font-family: "Dancing Script";
     font-style: inherit;
     font-style: initial;
-    padding: 100px;
+    padding: 100px;;
 
 }
 .flex-container{
@@ -19,5 +17,13 @@ header{
     margin: 5px;
     display: flex;
    flex-wrap: wrap;
+}
+
+.box1{
+    background-color: antiquewhite;
+}
+
+.box2{
+    padding: auto;
 }
 

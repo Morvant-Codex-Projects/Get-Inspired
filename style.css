@@ -8,6 +8,7 @@ header{
     font-style: inherit;
     font-style: initial;
     padding: 100px;;
+    color: antiquewhite;
 
 }
 .flex-container{
@@ -53,6 +54,10 @@ header{
 
 section{
     border-radius: 25px;
-background: #684987;
-background: radial-gradient(circle, rgba(104, 73, 135, 1) 0%, rgba(44, 87, 130, 1) 100%);
+background: #c694ff;
+background: radial-gradient(circle, rgba(198, 148, 255, 1) 0%, rgba(255, 217, 217, 1) 100%);
+}
+
+.img{
+
 }

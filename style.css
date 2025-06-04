@@ -1,6 +1,7 @@
 html{
     background-image: url(purple-sky.png);
 }
+
 header{
     text-align: center;
     font-size: 75px;
@@ -10,8 +11,15 @@ header{
     padding: 100px;;
     color: antiquewhite;
 }
+
+main{
+     font-family: "Merienda";
+     color: rgb(79, 23, 131);
+
+}
+
 .flex-container{
-    font-family: "Merienda";
+   
     padding: 80px;
     border: solid 2px  salmon;
     margin: 5px;
@@ -19,15 +27,6 @@ header{
    flex-wrap: wrap;
    border-radius: 25px;
 }
-
-.box1{
-    background-color: antiquewhite;
-}
-
-.box2{
-    padding: auto;
-}
-
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column{
@@ -53,7 +52,6 @@ header{
 }
 
 section{
-    color: rgb(79, 23, 131);
     border-radius: 25px;
     background: #c694ff;
     background: radial-gradient(circle, rgba(198, 148, 255, 1) 0%, rgba(255, 217, 217, 1) 100%);
@@ -74,3 +72,16 @@ button:hover{
 nav{
     text-align: center;
 }
+
+.container{
+    display: inline-grid;
+    column-gap: 2px;
+    content: 45px;
+    padding: 25px;
+    border: solid 2px black;
+    border-radius: 25px;
+    margin: 10px;
+    background-color: antiquewhite;
+    
+}
+

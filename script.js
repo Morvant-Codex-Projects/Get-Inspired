@@ -9,9 +9,9 @@ const randomIdea = [
     "Skip some stones at your favorite pond or lake."
 ];//collection of data
 
-//defining the shape of obj from scratch
+//defining the shape of obj from scratch- may use later
 
-const yoga = {};
+/*const yoga = {};
 
 const gardening = {};
 
@@ -19,7 +19,20 @@ const meditation = {};
 
 const photography = {};
 
-const kayaking = {};
+const kayaking = {};*/
 
 
+// add event listener
+tryThis.addEventListener("onclick",return(randomIdea));
+
+function addEventListener(randomIdea, "onclick"); {
+    e.preventDefault();
+    const tryThis = document.getElementById("tryThis");
+    return(randomIdea)
+
+}
+
+console.log(randomIdea)
+
+addEventListener.getElementById("tryThis").return
 

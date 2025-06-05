@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head style="background:scroll;>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Get Motivated</title>
@@ -32,7 +32,7 @@
           a scenic trail and listening to the birds sing may be just what you
           need.
         </p>
-        <button>Try This</button>
+        <button id="tryThis" onclick="addEventListener">Try This</button>
     </div>
 
     <div id="idea-box"></div>
@@ -53,7 +53,7 @@
   </section>
 
    
-      <div class="container">
+      <div class="container" id="aList">
         <ol>
           <b>"Cat's Meow"</b>
           <li>cats have 1oo different vocalizations</li>
@@ -63,7 +63,8 @@
         </ol>
       </div>
       
-      <div class="container">
+      <div class="container"  id="bList">
+        <div class="hidden">
         <ol>
           <b>Did you know?</b>
           <li>bees dance to communicate</li>
@@ -72,6 +73,7 @@
           <li>crows remember faces</li>
           </div>
         </ol>
+        </div>
       </div>
   
 

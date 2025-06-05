@@ -1,87 +1,101 @@
-html{
+* {
+    color-scheme:
+   /* SCSS RGB */
+$african-violet: rgba(156, 137, 184, 1);
+$lavender-pink: rgba(240, 166, 202, 1);
+$pink-lavender: rgba(239, 195, 230, 1);
+$lavender-blush: rgba(240, 230, 239, 1);
+$periwinkle: rgba(184, 190, 221, 1);
+
+
+}
+
+
+html {
     background-image: url(purple-sky.png);
 }
 
-header{
+header {
     text-align: center;
     font-size: 75px;
     font-family: "Dancing Script";
     font-style: inherit;
     font-style: initial;
-    padding: 100px;;
-    color: antiquewhite;
+    padding: 100px;
+    ;
+    color: rgb(240, 230, 239);
 }
 
-main{
-     font-family: "Merienda";
-     color: rgb(79, 23, 131);
+main {
+    font-family: "Merienda";
+    color: rgb(79, 23, 131);
 
 }
 
-.flex-container{
-   
+.flex-container {
+
     padding: 80px;
-    border: solid 2px  salmon;
+    border: solid 2px rgb(240, 166, 202);
     margin: 5px;
     display: flex;
-   flex-wrap: wrap;
-   border-radius: 25px;
+    flex-wrap: wrap;
+    border-radius: 25px;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
-.column{
-  float: left;
-  width: 30%;
-  padding: 2px;
+.column {
+    float: left;
+    width: 30%;
+    padding: 2px;
 }
 
 /* Clear floats after image containers */
-.row::after{
-  content: "";
-  clear: both;
-  display: table;
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .row {
     display: flex;
 }
 
-.column{
+.column {
     flex: 30%;
     padding: 2px;
 }
 
-section{
+section {
     border-radius: 25px;
     background: #c694ff;
     background: radial-gradient(circle, rgba(198, 148, 255, 1) 0%, rgba(255, 217, 217, 1) 100%);
 }
 
-button{
+button {
     color: rgb(82, 10, 126);
     border-radius: 50%;
     transition-duration: 0.2s;
-    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-button:hover{
+button:hover {
     background-color: aqua;
     color: blueviolet;
 }
 
-nav{
+nav {
     text-align: center;
 }
 
-.container{
+.container {
     display: inline-grid;
     column-gap: 2px;
     content: 45px;
     padding: 25px;
-    border: solid 2px black;
+    border: solid 2px rgb(156, 137, 184);
     border-radius: 25px;
     margin: 10px;
-    background-color: antiquewhite;
-    
+    background-color: rgb(184, 190, 221);
+    animation: bounceInLeft;
+    animation-duration: 10s;
 }
-

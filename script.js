@@ -16,8 +16,8 @@ console.log(randomIdea[2]);
 const tryThis = document.getElementById("tryThis");
 
 tryThis.addEventListener("click",function(e) {
-    console.log("clicked!");
-    document.getSelection.innerHTML = "<h3>This might help " + randomIdea + "!</h3>";
+    console.log("my button works,just one more thing to figure out!");
+    document.addEventListener("click","tryThis").innerHTML(randomIdea);
 });
 
  

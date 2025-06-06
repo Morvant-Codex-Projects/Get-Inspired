@@ -1,4 +1,4 @@
-console.log("Hello");
+console.log("Hello World");
 
 //js object
 const randomIdea = [
@@ -9,22 +9,23 @@ const randomIdea = [
     "Skip some stones at your favorite pond or lake."
 ];//collection of data
 
-console.log("randomIdea");
+console.log(randomIdea);
 
-const button = document.getElementById("tryThis");
+console.log(randomIdea[2]);
 
-button.addEventListener("click",displayText);
+const tryThis = document.getElementById("tryThis");
 
-function displayText(element){
-   element.displayText="randomIdea"
+tryThis.addEventListener("click",function(e) {
+    console.log("clicked!");
+    document.getSelection.innerHTML = "<h3>This might help " + randomIdea + "!</h3>";
+});
 
-}
+ 
 
 
-//document.getElementById("tryThis").addEventListener("click", randomIdea);
 
-//function displayDate() {
-  //document.getElementById("randomIdea").innerHTML = Date();
+
+
 
 
 

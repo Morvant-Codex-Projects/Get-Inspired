@@ -13,7 +13,12 @@ header {
     font-style: inherit;
     font-style: initial;
     padding: 100px;
-    color: rgb(240, 230, 239);
+    color:rgb(255, 19, 240);
+
+    animation: bouncy;
+    animation-iteration-count: infinite;
+    animation-duration: 25s;
+
 }
 
 
@@ -88,27 +93,46 @@ nav {
     border-radius: 25px;
     margin: 10px;
     background-color: rgb(184, 190, 221);
+
+
 }
 
 
 #aList{
     width: 48%;
-    height: 300px;
+    height: 500px;
     width: fit-content;
 
-    animation: mySlide;
-    animation-duration: 5s;
+    animation: mySlideA;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+    animation-duration: 25s;
 
+}
+
+@keyframes mySlideA{
+    to{margin-right: 50%;}
+    from{margin-right: 100%;}
 }
 
 #bList{
     width: 48%;
-    height: 300px;
+    height: 500px;
     width: fit-content;
+
+    animation: mySlideB;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+    animation-duration: 25s;
+
 
 }
 
-@keyframes mySlide{
+@keyframes mySlideB{
     from{margin-left: 100%;}
-    to{margin-left: 0%;}
+    to{margin-left: 50%;}
 }

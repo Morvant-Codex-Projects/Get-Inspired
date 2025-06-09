@@ -13,12 +13,22 @@ console.log(randomIdea);
 
 console.log(randomIdea[2]);
 
+
+
 const tryThis = document.getElementById("tryThis");
 
-tryThis.addEventListener("click",function(e) {
-    console.log("my button works,just one more thing to figure out!");
-});
 
+tryThis.addEventListener("click", function(){
+    console.log("my button works,just one more thing to figure out!");
+
+});
+    
+
+
+// Function to be executed on button click
+
+
+   
 
 
 

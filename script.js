@@ -22,6 +22,10 @@ tryThis.addEventListener("click", function(){
     console.log("my button works,just one more thing to figure out!");
 
 });
+
+document.addEventListener("click", function(){
+    document.innerHTML(randomIdea);
+});
     
 
 

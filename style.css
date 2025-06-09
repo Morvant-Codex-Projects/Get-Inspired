@@ -60,6 +60,7 @@ section {
     border-radius: 25px;
     background: #c694ff;
     background: radial-gradient(circle, rgba(198, 148, 255, 1) 0%, rgba(255, 217, 217, 1) 100%);
+    width: fit-content;
 }
 
 button {
@@ -80,40 +81,34 @@ nav {
 
 .container {
     display: inline-grid;
-    column-gap: 2px;
+    column-gap: .75px;
     content: 45px;
-    padding: 25px;
+    padding: 2px;
     border: solid 2px rgb(156, 137, 184);
     border-radius: 25px;
     margin: 10px;
     background-color: rgb(184, 190, 221);
-    animation: bounceInLeft;
-    animation-duration: 10s;
 }
 
-@keyframes scrolling {
-    to {
-        transform: translate(calc(-50%);
-    }
+
+#aList{
+    width: 48%;
+    height: 300px;
+    width: fit-content;
+
+    animation: mySlide;
+    animation-duration: 5s;
+
 }
 
-body {
-    width: 200vw;
+#bList{
+    width: 48%;
+    height: 300px;
+    width: fit-content;
+
 }
 
-/*.scroll-watcher {
-    height: 10px;
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-    background-color: rgb(34, 177, 12);
-    width: 100%;
-    scale: .5 1;
-
-    animation: scroll-watcher linear;
-    animation-timeline: scroll(y);
+@keyframes mySlide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
 }
-
-@keyframes scroll-watcher {
-    to { scale: 1 1; }
-}*/

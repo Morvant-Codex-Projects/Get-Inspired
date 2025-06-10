@@ -17,20 +17,24 @@ console.log(randomIdea[2]);
 
 const tryThis = document.getElementById("tryThis");
 
+const ideaBox = document.getElementById("ideaBox");
 
 tryThis.addEventListener("click", function(){
     console.log("my button works,just one more thing to figure out!");
 
 });
 
-document.addEventListener("click", function(){
-    document.innerHTML(randomIdea);
-});
+ideaBox.addEventListener("click", function(){});
     
 
 
 // Function to be executed on button click
-
+function handleRandomIdea(event) {
+    event.preventDefault();
+    const randomIdea = Math.floor(Math.random() * ideas.length);
+    ideaBox.textContent = ideas[randomIdea];
+    
+}
 
    
 

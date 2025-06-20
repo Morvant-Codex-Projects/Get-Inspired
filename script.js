@@ -17,27 +17,29 @@ console.log(randomIdea[2]);
 
 const tryThis = document.getElementById("tryThis");
 
-const ideaBox = document.getElementById("ideaBox");
+const ideaBoxElement = document.getElementById("ideaBox");
 
 tryThis.addEventListener("click", function(){
     console.log("my button works,just one more thing to figure out!");
 
 });
 
-ideaBox.addEventListener("click", function(){});
-    
+function getRandomIdea () {
+    const tryThis = Math.floor(Math.random() * randomIdea.length);
+    const getRandomIdea = randomIdea[""];
+}
 
 
 // Function to be executed on button click
 function handleRandomIdea(event) {
     event.preventDefault();
-    const randomIdea = Math.floor(Math.random() * ideas.length);
-    ideaBox.textContent = ideas[randomIdea];
-    
-}
+    const randomIdea = Math.floor(Math.random() * randomIdea.length);
+    return randomIdea[getRandomIdea];
+    ideaBoxElement.textContent = 'Try This' + 
 
-   
+    };
 
+document.getElementById("tryThis").addEventListener("click",handleRandomIdea);
 
 
  

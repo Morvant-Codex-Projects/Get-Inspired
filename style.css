@@ -136,3 +136,9 @@ nav {
     from{margin-left: 100%;}
     to{margin-left: 50%;}
 }
+
+ideaBox {
+    padding: 2px;
+    border: 2px solid black;
+    margin: 3px;
+}
